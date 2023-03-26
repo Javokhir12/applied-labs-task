@@ -24,8 +24,8 @@ const hamburgerButton = document.querySelector<HTMLButtonElement>(
 
 hamburgerButton?.addEventListener('click', () => {
   const menuClasses = [
-    'h-1/5',
-    'w-full',
+    'h-full',
+    'w-1/3',
     'flex-col',
     'p-4',
     'bg-gray-900',
